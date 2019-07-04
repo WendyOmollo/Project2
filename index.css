@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    max-width:100%;
+    
+    height:75px;
+    display:flex;
+    background-color: rgb(9, 175, 175);
+}
+.logo{
+    margin: 5px 0 0 10px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px #3d3b3b;  
+    width: 60px;
+    padding-bottom: 20px;
+    background-image: url("https://cdn.pixabay.com/photo/2014/01/25/13/33/sun-251455__340.jpg");
+    background-size: cover;
+}
+ul{
+    text-align:right;
+    display: inline-flex;
+}
+ul li{
+    
+   list-style: none;
+   float:right;
+   padding:  15px 15px 0 15px;
+   position: relative;
+   left:940px;
+}
+a{
+    text-decoration: none;
+    li{
+        
+}
+    }
+/*.housing{
+    display:flex;
+      flex-direction:row;
+}
+
+
+img{
+      height:200px;
+      width:300px;  
+      padding:30px;     
+      justify-content:space-between;    
+}

@@ -2,29 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta nam="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exotica</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
+    <div class="container"> 
+        
             <nav>
-                <img src="https://cdn.pixabay.com/photo/2014/01/25/13/33/sun-251455__340.jpg">
+                <div  class="logo"> 
+                    <img    id="logo">
+                </div>
                 <ul>
-                    <li>Home
-                    <li>Accomodation</li>
-                    <li>Contacts</li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#housing">Accomodation</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
-        </div>
-        <div class="landing">
+        
+       <!----div class="landing">
             <img src="https://cdn.pixabay.com/photo/2016/10/10/22/36/seychelles-1730082__340.jpg">
             <img src="https://cdn.pixabay.com/photo/2016/11/21/15/43/beach-1846040__340.jpg">
             <img src="https://cdn.pixabay.com/photo/2015/09/28/14/20/sunset-962156__340.jpg">
             <h1>Exotica</h1>
-        </div>
+        </div-->
         <div class="housing">
             <figure>
                 <img src="https://cdn.pixabay.com/photo/2015/08/16/22/48/south-beach-891778__340.jpg">
@@ -54,14 +56,17 @@
             </figure>
         </div>
         <div class="contacts">
-            <h2>Make a reservation today</h2>
+            <h2>Reach us today</h2>
             <form>
-                <input type="text" placeholder="Write your name.">
-                <input type="" placeholder=""
-
-            </form>
+                Name<br>
+                <input type="text" placeholder="Write your name."><br>
+                Email address<br>
+                <input type="text" placeholder="Write your email address"><br>
+                Comment<br>
+                <textarea></textarea>
+                </form>
             
-        </div>
+        </div> 
     </div>
     
 </body>
