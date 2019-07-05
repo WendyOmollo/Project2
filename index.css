@@ -9,6 +9,7 @@ nav{
     height:75px;
     display:flex;
     background-color: rgba(23, 184, 176, 0.904);
+    
 }
 #logo{
     margin: 1px 1px 0 0;
@@ -42,29 +43,25 @@ a{
     left: 0;
     right: 0;    
 }
-
-
-
-    
-#awesome{
+h2{
+    text-align:center;
+}.housing{
     display:flex;
 }
-#house{
-    display:flex;
-}
-
-
 img{
       height:200px;
       width:300px;  
       padding:30px;     
       justify-content:space-around;    
 }
-#contacts{
-    text-align-last: center;
-    box-sizing: border-box;
+#reach{
+    text-align:left;
+}
+form{
+    text-align:left;
+    
 }
 
-    
+
 
 
