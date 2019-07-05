@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exotica</title>
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container"> 
@@ -13,15 +14,16 @@
                 <div class="logo"> 
                     <img id="logo">
                 </div>
-                <h1>Exotica</h1>
+                <h1 id="head">Exotica</h1>
                 <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#house">Activities</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#Home">Accomodation</a></li>
+                    <li><a href="#acts">Activities</a></li>
+                    <li><a href="#conts">Contacts</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
                 </ul>
             </nav>
-        </div>
-        <div><h2>Accomodation</h2></div>
+        
+        <div id="Home"><h2>Accomodation</h2></div>
         <div class="housing">
             <figure>
                 <img src="https://cdn.pixabay.com/photo/2015/08/16/22/48/south-beach-891778__340.jpg">
@@ -51,7 +53,7 @@
             </figure>
         </div>
         <hr>
-        <div><h2>Activities</h2></div>
+        <div id="acts"><h2>Activities</h2></div>
         <div class="housing" id="house">
             <figure>
                 <img src="https://cdn.pixabay.com/photo/2019/06/30/15/57/racing-boat-4308282__340.jpg" >
@@ -83,26 +85,73 @@
         </div>
         <hr>
         <div id="contacts">
-            <h2 id="reach">Book a reservation</h2>
+            <div>
+            <div id="conts"><h2 class="fonty">Book a reservation</h2></div>
             <div>
             <form>
-                Email address<br>
+                Email address &nbsp;
                 <input type="text" placeholder="Write your email address"><br><br>
-                Room
-                <input type="text" ><br><br>
-                Arrival
+                Room &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text"  placeholder="How many rooms are you booking?"><br><br>
+                Arrival &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="date"><br><br>
-                Departure
+                Departure&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="date"><br><br>
-                Visitors
+                Visitors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="number"><br><br>
                 <input type="submit">
             </form>
             </div>
-           <div>
-             < 
+            </div>
+             <div>
+           <div><h2 class="fonty">Contacts</h2></div>
+           <div id="fonts">
+             <i class="fa fa-phone" style="font-size:20px;"></i> +245 722 963 552<br><br>
+             <i class="fa fa-map-marker"><p>Ngong' Town
+                 Off Ngong' Road<br><br>
+                   Kabiswa Lane<br><br>
+                   P.O.Box 524-00203,Ngong'
+                </p>
+                 
+             </i><br>
+             <i class="fa fa-twitter"></i>@ExoticaHotels<br><br>
+             <i class="fa fa-facebook-official" style="font-size:20px;"></i>Exotica Hotels<br>
            </div>
-        </div> 
+           </div>
+        </div>
+        <hr>
+           
+               <div id="gallery"><h2>Gallery</h2></div>
+               <div class="pics">
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2015/09/28/21/32/the-palm-962785__340.jpg" >
+                    
+                </figure>
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2016/11/22/23/12/beach-1851100__340.jpg" >
+                    
+                </figure>
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2015/09/02/13/13/resort-918952__340.jpg" >
+                    
+                </figure>
+               </div> 
+               <div class="pics">
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2015/11/07/11/02/terrace-1030758__340.jpg" >
+                    
+                </figure>
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2015/09/02/12/40/swimming-pool-918593__340.jpg" >
+                </figure>
+                <figure>
+                    <img src="https://cdn.pixabay.com/photo/2018/01/28/04/17/relaxing-3112750__340.jpg" >
+                </figure> 
+               </div>
+               <button id="up"><a href="#head">Go up</a></button>
+               <footer>
+                   <i class="fa fa-copyright" style="font-size:16px;"></i>2019 Exotica Hotels
+               </footer>       
     </div>
     
 </body>
