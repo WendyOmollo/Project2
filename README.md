@@ -8,6 +8,7 @@ Wendy Omollo
 
 ## Setup
 You can git clone it,extract it and modify.I highly recommend someone who can make it functional using Javascript.
+You can follow this link to take you to the actual webpage, https://wendyomollo.github.io/Project2/
 
 ## License
 MIT License
